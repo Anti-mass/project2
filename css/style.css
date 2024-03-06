@@ -35,7 +35,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 10px; 
+    margin-right: 2%; 
 }
 
 nav ul li:last-child {
@@ -45,7 +45,8 @@ nav ul li:last-child {
 nav ul li a {
     text-decoration: none;
     color: #333; 
-    padding: 5px 10px; 
+    padding: 1% 4%;
+    text-wrap: nowrap; 
 }
 
 nav ul li a:hover {
@@ -63,6 +64,16 @@ nav ul li a:hover {
 .centerPage{
     text-align: center;
     margin: 10%;
+}
+
+section{
+    text-align: center;
+}
+
+.textblock{
+    text-wrap: wrap;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 a {
