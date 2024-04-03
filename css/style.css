@@ -1,11 +1,28 @@
-body, h1, p {
-    margin: 0;
-    padding: 0;
-}
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f7f7f7;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.gradient-background {
+    background: linear-gradient(to right, #ff725f, #c9b18b);
+}
+
+.gradient-backgroundTreats {
+    background: linear-gradient(to right, #ffdf5f, #f4660e);
+}
+
+.gradient-backgroundDrip {
+    background: linear-gradient(to right, #6a2c21, #e5a031);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #852727;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -22,7 +39,7 @@ p {
 }
 
 nav{
-    position: ;
+    position: center;
     text-align: center;
     background-color: #ff00e6;
 }
@@ -49,11 +66,20 @@ nav ul li a {
     padding: 1% 4%;
 }
 
+.picfloatsL {
+    float: left;
+}
+
+.picfloatsR {
+    float: right;
+}
+
 nav ul li a:hover {
     background-color: #f0f0f0; 
 }
 
 .center {
+    position: center;
     text-align: center;
 }
 
